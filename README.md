@@ -5,7 +5,7 @@ Conclusión general
 
 En este proyecto, realizamos un análisis exhaustivo de los planes de prepago Surf y Ultimate ofrecidos por Megaline para determinar cuál de ellos genera más ingresos. A continuación, se enumeran las conclusiones y decisiones clave que determinaron la forma en que procesamos y analizamos los datos:
 
-Preparación y Limpieza de Datos:
+# Preparación y Limpieza de Datos:
 
 Conversión de Fechas: Convertimos las fechas en objetos datetime para facilitar el análisis basado en el tiempo de los dataframe, internet, mensajes y llamadas.
 

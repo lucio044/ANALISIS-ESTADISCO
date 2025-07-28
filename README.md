@@ -5,27 +5,27 @@ Conclusión general
 
 En este proyecto, realizamos un análisis exhaustivo de los planes de prepago Surf y Ultimate ofrecidos por Megaline para determinar cuál de ellos genera más ingresos. A continuación, se enumeran las conclusiones y decisiones clave que determinaron la forma en que procesamos y analizamos los datos:
 
-# Preparación y Limpieza de Datos:
+## Preparación y Limpieza de Datos:
 
 Conversión de Fechas: Convertimos las fechas en objetos datetime para facilitar el análisis basado en el tiempo de los dataframe, internet, mensajes y llamadas.
 
 Creación de Columnas de Mes: Añadimos columnas que representan el mes para permitir la agrupación mensual de los datos.
 
-Cálculo del Uso Total:
+## Cálculo del Uso Total:
 
 Agrupamos los datos de llamadas, mensajes y uso de datos por usuario y mes para obtener el total de minutos utilizados, SMS enviados y datos consumidos.
 
-Unión de Datos:
+## Unión de Datos:
 
 Unimos los datos de llamadas, mensajes e internet con los datos de usuarios para tener un conjunto de datos completo que incluya la información del plan, el uso de servicios y las tarifas correspondientes, tambien añadimos el plan, obteniendo un dateframe grande con toda la informacion procesada.
 
-Cálculo de Ingresos:
+## Cálculo de Ingresos:
 
 Desarrollamos una función para calcular los ingresos totales por usuario, considerando tanto los ingresos básicos por suscripción mensual como los ingresos adicionales por exceder los límites del plan.
 
 Distribucion en grafico: Graficamos la distribucion por mes de llamadas, mensajes, internet y planes.
 
-Análisis Estadístico:
+## Análisis Estadístico:
 
 Formulación de Hipótesis del dataframe:
 
@@ -51,16 +51,16 @@ Establecimos un nivel de significancia de 0.05 para la prueba estadística.
 
 Resultados: El valor p obtenido 0.02562213042590581 fue extremadamente bajo, permitiéndonos rechazar la hipótesis nula y concluir que hay una diferencia significativa en los ingresos promedio entre las ciudades de NY-NJ y el resto de estados.
 
-CONCLUSIONES IMPORTANTES:
+# CONCLUSIONES IMPORTANTES:
 
-Diferencia Significativa en los Ingresos Promedio:
+### Diferencia Significativa en los Ingresos Promedio:
 
 Los resultados de la prueba t indicaron una diferencia significativa en los ingresos promedio entre los usuarios de los planes Ultimate y Surf. Específicamente, el plan Ultimate genera más ingresos promedio que el plan Surf.
 
-Beneficios del Plan Ultimate:
+### Beneficios del Plan Ultimate:
 
 Aunque el plan Ultimate tiene una tarifa de suscripción más alta, ofrece más minutos, mensajes y datos incluidos, lo que resulta en menos cargos adicionales para los usuarios y, en general, mayores ingresos para la empresa.
 
-Consideraciones para la Toma de Decisiones:
+### Consideraciones para la Toma de Decisiones:
 
 Estos hallazgos pueden informar las decisiones del departamento comercial de Megaline, especialmente en lo que respecta a la asignación del presupuesto de publicidad y el enfoque de marketing para maximizar los ingresos.

@@ -1,4 +1,4 @@
-# ANALISIS-ESTADISCO
+# ANALISIS-ESTADISTICO
  Desarrollo de un estudio analítico sobre 500 clientes para evaluar el rendimiento financiero de las tarifas Surf y Ultimate. Se aplicaron técnicas estadísticas y pruebas de hipótesis para determinar la estrategia comercial óptima basada en el comportamiento de uso (llamadas, mensajes, etc.).
 Conclusión general
 [En esta sección final, enumera tus conclusiones importantes. Asegúrate de que estas abarquen todas las decisiones (suposiciones) importantes que adoptaste y que determinaron la forma elegida para procesar y analizar los datos.]
